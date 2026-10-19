@@ -10,6 +10,8 @@ This is not the official Local 817 website and is not presented as a union-appro
 
 Responsive homepage, craft pages, searchable member resources, Driver Hub navigation previews, news, contact information, a source inventory, and the downloadable leadership brief. Text is centered and every logo links home.
 
+The language selector provides English, Spanish, Simplified Chinese, Russian, Bengali and French. It remembers the visitor's choice locally, translates page text and accessibility labels, and supports searching translated resource names. Linked official documents and the PDF brief remain in their original language. Translation dictionaries are served from this repository; no third-party translation service receives browsing content.
+
 Payments, reports and member sign-in open their existing official services. This prototype has no backend, gathers no personal information, and contains no private driver records or yard access codes. It is a public presentation; `noindex` requests search-engine exclusion and does not restrict access.
 
 ## Hosting
