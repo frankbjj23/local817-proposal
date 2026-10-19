@@ -1,0 +1,5 @@
+/* Keep the testing status visible on every page of the proposal. */
+.testing-notice{margin:0;padding:8px 20px;background:#a51e28;color:#fff;font-size:13px;font-weight:700;line-height:1.5;text-align:center}
+.brand>.brand-emblem{display:inline-flex;position:relative;align-items:center;justify-content:center;flex:0 0 auto;line-height:1}
+.beta-stamp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-14deg);padding:3px 5px;border:2px solid #be202d;border-radius:2px;background:#fffef5ed;box-shadow:0 0 0 1px #ffffffb3;color:#be202d;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:900;letter-spacing:.09em;line-height:1;white-space:nowrap;pointer-events:none}
+@media(max-width:680px){.testing-notice{font-size:12px;padding:8px 16px}.beta-stamp{font-size:11px;padding:2px 3px}}
