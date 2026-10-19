@@ -1,0 +1,49 @@
+/* Centered presentation, shared across every route and screen size. */
+body{text-align:center}
+.header{position:sticky;top:0}
+.brand,.footer-wordmark,.mini-wordmark{cursor:pointer}
+.mini-wordmark:hover{color:#003f79}
+.mini-wordmark:focus-visible{outline:3px solid var(--blue);outline-offset:6px}
+.hero-copy>p:not(.eyebrow),.page-intro-row>div>p,.section-lead,.section-note,.credit-panel,.hub-feature p{margin-inline:auto}
+.hero-copy .button-row{justify-content:center}
+.page-intro-row,.section-heading{flex-direction:column;align-items:center}
+.page-intro-row{gap:24px}
+.page-intro-row>div{width:100%}
+.page-intro h1{margin-inline:auto}
+.page-intro-row>.button,.page-intro-row>.text-link{margin-top:0;margin-bottom:0}
+.section-heading{gap:20px}
+.section-heading>.text-link{margin-top:0;margin-bottom:0}
+.craft-card h3{margin-inline:auto}
+.craft-card .text-link,.hub-category .text-link{justify-content:center}
+.check-list li,.preview-protection,.mini-wordmark,.contact-card dt{justify-content:center}
+.image-credit,.phase-list b{text-align:center}
+.photo-label{left:0;right:0}
+.news-meta{justify-content:center}
+.news-date-art{align-items:center}
+.contact-card dd{margin-left:0}
+.notice>div,.notice>p{flex:1}
+.guide-row>span,.preview-link>span{text-align:center}
+.link-list-row{justify-content:center}
+.phase-list p{margin-inline:auto}
+.proposal-facts>div{grid-template-columns:1fr;gap:5px}
+.proposal-facts dt{margin-bottom:0}
+.source-inventory summary>span{flex:1}
+.inventory-list a{justify-content:center}
+.footer-grid>div:first-child{justify-content:center}
+.footer-bottom{justify-content:center;flex-wrap:wrap}
+.contact-strip,.anniversary-callout{flex-direction:column;align-items:center;text-align:center}
+.contact-strip .button,.anniversary-callout .button{flex:0 0 auto}
+.search-heading h2{flex:1}
+.search-result>span{flex:1}
+@media(max-width:680px){
+ .section-heading>.text-link{margin-top:20px}
+ .page-intro-row>.button,.page-intro-row>.text-link{margin-top:24px}
+ .hub-sidebar .mini-wordmark{justify-content:center}
+ .proposal-facts>div{grid-template-columns:1fr}
+ .proposal-pillars article{grid-template-columns:1fr;gap:12px}
+ .proposal-pillars p{grid-column:1}
+ .contact-strip .button{margin-top:25px}
+ .anniversary-callout .button{margin-top:23px}
+ .footer-grid>div:first-child{flex-direction:column;gap:18px}
+}
+@media print{.header{position:static}}
